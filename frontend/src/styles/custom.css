@@ -1,0 +1,24 @@
+.candidate-card {
+  transition: all 0.3s ease;
+}
+
+.candidate-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar-circle {
+  width: 70px;
+  height: 70px;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.placeholder {
+  border-radius: 6px;
+}
